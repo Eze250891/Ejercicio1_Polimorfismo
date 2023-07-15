@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polimorfismo
 {
-    internal class Perro : ISonido
+    public class Perro : ISonido
     {
         public string HacerSonido()
         {
