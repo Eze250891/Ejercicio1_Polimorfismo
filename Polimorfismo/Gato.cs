@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Polimorfismo
 {
-    internal class Gato
+    internal class Gato : ISonido
     {
+        public string HacerSonido()
+        {
+            return "EL gato hace miau miau me dicen la gata";
+        }
     }
 }

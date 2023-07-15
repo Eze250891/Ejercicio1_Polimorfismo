@@ -10,7 +10,7 @@ namespace Polimorfismo
     {
         public string HacerSonido()
         {
-            return "el perro hace Guau Guau";
+            return "El perro hace Guau Guau";
         }
     }
 }
